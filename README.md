@@ -14,6 +14,6 @@ Screenshot-
 
 -**images**
 
-..* manifest.json
+*manifest.json
 
-..* kitten.js
+*kitten.js
