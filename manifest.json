@@ -1,0 +1,19 @@
+{
+   "manifest_version": 2,
+   "name": "KittyWitty",
+   "version": "0.1",
+   "author":"Devansh Varshney",
+   "web_accessible_resources":[
+      "kittens/*.jpg"
+   ],
+   "content_scripts":[{
+       "matches": ["<all_urls>"],
+       "js": ["kitten.js"]
+       }],
+    "icons":
+   {
+           "16": "images/icon16.png",
+           "48": "images/icon48.png",
+          "128": "images/icon128.png"
+   }
+}
